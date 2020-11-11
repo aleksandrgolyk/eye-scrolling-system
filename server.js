@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 })
 
-app.listen(Process, function () {
+app.listen(process.env.PORT, function () {
     console.log('API app started')
 })
