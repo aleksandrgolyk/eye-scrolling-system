@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 })
 
-app.listen(3012, function () {
-    console.log('API app started')
+app.listen(function () {
+    // console.log('API app started')
 })
