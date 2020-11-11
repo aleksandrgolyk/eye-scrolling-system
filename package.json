@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "heroku": "^7.47.1",
     "local-web-server": "^4.2.1"
   }
 }
